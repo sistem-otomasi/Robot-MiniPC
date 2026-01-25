@@ -28,6 +28,7 @@ venv/
 ENV/
 env/
 .venv
+.env
 
 # ROS
 install/
@@ -36,6 +37,11 @@ log/
 devel/
 .catkin_workspace
 COLCON_IGNORE
+
+# Node.js (if used)
+node_modules/
+package-lock.json
+pnpm-lock.yaml
 
 # IDE
 .vscode/
@@ -47,16 +53,7 @@ COLCON_IGNORE
 .classpath
 .c9/
 *.sublime-workspace
-
-# OS
-.DS_Store
-Thumbs.db
-.AppleDouble
-.LSOverride
-
-# Environment
-.env
-.env.local
+*.sublime-project
 *.pem
 *.key
 
