@@ -1,0 +1,148 @@
+running egg_info
+creating ../../build/robot_example/robot_example.egg-info
+writing ../../build/robot_example/robot_example.egg-info/PKG-INFO
+writing dependency_links to ../../build/robot_example/robot_example.egg-info/dependency_links.txt
+writing entry points to ../../build/robot_example/robot_example.egg-info/entry_points.txt
+writing requirements to ../../build/robot_example/robot_example.egg-info/requires.txt
+writing top-level names to ../../build/robot_example/robot_example.egg-info/top_level.txt
+writing manifest file '../../build/robot_example/robot_example.egg-info/SOURCES.txt'
+reading manifest file '../../build/robot_example/robot_example.egg-info/SOURCES.txt'
+writing manifest file '../../build/robot_example/robot_example.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/build/robot_example/build
+creating /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/build/robot_example/build/lib
+creating /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/build/robot_example/build/lib/robot_example
+copying robot_example/listener.py -> /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/build/robot_example/build/lib/robot_example
+copying robot_example/__init__.py -> /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/build/robot_example/build/lib/robot_example
+copying robot_example/talker.py -> /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/build/robot_example/build/lib/robot_example
+copying robot_example/ros2_config_manager.py -> /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/build/robot_example/build/lib/robot_example
+copying robot_example/cli.py -> /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/build/robot_example/build/lib/robot_example
+copying robot_example/ros2_controller.py -> /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/build/robot_example/build/lib/robot_example
+copying robot_example/ros2_hardware_monitor.py -> /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/build/robot_example/build/lib/robot_example
+copying robot_example/ros2_kinematics.py -> /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/build/robot_example/build/lib/robot_example
+creating /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/build/robot_example/build/lib/robot_example/hardware
+copying robot_example/hardware/__init__.py -> /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/build/robot_example/build/lib/robot_example/hardware
+copying robot_example/hardware/sensors.py -> /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/build/robot_example/build/lib/robot_example/hardware
+copying robot_example/hardware/motors.py -> /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/build/robot_example/build/lib/robot_example/hardware
+copying robot_example/hardware/gpio.py -> /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/build/robot_example/build/lib/robot_example/hardware
+creating /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/build/robot_example/build/lib/robot_example/utils
+copying robot_example/utils/logger.py -> /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/build/robot_example/build/lib/robot_example/utils
+copying robot_example/utils/__init__.py -> /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/build/robot_example/build/lib/robot_example/utils
+copying robot_example/utils/config.py -> /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/build/robot_example/build/lib/robot_example/utils
+creating /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/build/robot_example/build/lib/robot_example/core
+copying robot_example/core/robot.py -> /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/build/robot_example/build/lib/robot_example/core
+copying robot_example/core/__init__.py -> /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/build/robot_example/build/lib/robot_example/core
+copying robot_example/core/state.py -> /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/build/robot_example/build/lib/robot_example/core
+creating /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/build/robot_example/build/lib/robot_example/communication
+copying robot_example/communication/websocket_client.py -> /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/build/robot_example/build/lib/robot_example/communication
+copying robot_example/communication/ros_bridge.py -> /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/build/robot_example/build/lib/robot_example/communication
+copying robot_example/communication/__init__.py -> /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/build/robot_example/build/lib/robot_example/communication
+copying robot_example/communication/protocol.py -> /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/build/robot_example/build/lib/robot_example/communication
+creating /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/build/robot_example/build/lib/robot_example/control
+copying robot_example/control/motion.py -> /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/build/robot_example/build/lib/robot_example/control
+copying robot_example/control/__init__.py -> /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/build/robot_example/build/lib/robot_example/control
+copying robot_example/control/pid.py -> /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/build/robot_example/build/lib/robot_example/control
+copying robot_example/control/filters.py -> /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/build/robot_example/build/lib/robot_example/control
+copying robot_example/control/controller.py -> /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/build/robot_example/build/lib/robot_example/control
+creating /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/build/robot_example/build/lib/robot_example/kinematics
+copying robot_example/kinematics/mecanum.py -> /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/build/robot_example/build/lib/robot_example/kinematics
+copying robot_example/kinematics/base.py -> /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/build/robot_example/build/lib/robot_example/kinematics
+copying robot_example/kinematics/differential.py -> /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/build/robot_example/build/lib/robot_example/kinematics
+copying robot_example/kinematics/__init__.py -> /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/build/robot_example/build/lib/robot_example/kinematics
+copying robot_example/kinematics/omni.py -> /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/build/robot_example/build/lib/robot_example/kinematics
+copying robot_example/kinematics/odometry.py -> /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/build/robot_example/build/lib/robot_example/kinematics
+copying robot_example/kinematics/ackermann.py -> /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/build/robot_example/build/lib/robot_example/kinematics
+running install
+running install_lib
+creating /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/install/robot_example/lib/python3.10/site-packages/robot_example
+creating /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/install/robot_example/lib/python3.10/site-packages/robot_example/hardware
+copying /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/build/robot_example/build/lib/robot_example/hardware/__init__.py -> /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/install/robot_example/lib/python3.10/site-packages/robot_example/hardware
+copying /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/build/robot_example/build/lib/robot_example/hardware/sensors.py -> /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/install/robot_example/lib/python3.10/site-packages/robot_example/hardware
+copying /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/build/robot_example/build/lib/robot_example/hardware/motors.py -> /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/install/robot_example/lib/python3.10/site-packages/robot_example/hardware
+copying /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/build/robot_example/build/lib/robot_example/hardware/gpio.py -> /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/install/robot_example/lib/python3.10/site-packages/robot_example/hardware
+creating /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/install/robot_example/lib/python3.10/site-packages/robot_example/utils
+copying /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/build/robot_example/build/lib/robot_example/utils/logger.py -> /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/install/robot_example/lib/python3.10/site-packages/robot_example/utils
+copying /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/build/robot_example/build/lib/robot_example/utils/__init__.py -> /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/install/robot_example/lib/python3.10/site-packages/robot_example/utils
+copying /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/build/robot_example/build/lib/robot_example/utils/config.py -> /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/install/robot_example/lib/python3.10/site-packages/robot_example/utils
+copying /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/build/robot_example/build/lib/robot_example/listener.py -> /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/install/robot_example/lib/python3.10/site-packages/robot_example
+copying /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/build/robot_example/build/lib/robot_example/__init__.py -> /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/install/robot_example/lib/python3.10/site-packages/robot_example
+creating /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/install/robot_example/lib/python3.10/site-packages/robot_example/core
+copying /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/build/robot_example/build/lib/robot_example/core/robot.py -> /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/install/robot_example/lib/python3.10/site-packages/robot_example/core
+copying /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/build/robot_example/build/lib/robot_example/core/__init__.py -> /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/install/robot_example/lib/python3.10/site-packages/robot_example/core
+copying /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/build/robot_example/build/lib/robot_example/core/state.py -> /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/install/robot_example/lib/python3.10/site-packages/robot_example/core
+creating /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/install/robot_example/lib/python3.10/site-packages/robot_example/communication
+copying /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/build/robot_example/build/lib/robot_example/communication/websocket_client.py -> /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/install/robot_example/lib/python3.10/site-packages/robot_example/communication
+copying /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/build/robot_example/build/lib/robot_example/communication/ros_bridge.py -> /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/install/robot_example/lib/python3.10/site-packages/robot_example/communication
+copying /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/build/robot_example/build/lib/robot_example/communication/__init__.py -> /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/install/robot_example/lib/python3.10/site-packages/robot_example/communication
+copying /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/build/robot_example/build/lib/robot_example/communication/protocol.py -> /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/install/robot_example/lib/python3.10/site-packages/robot_example/communication
+copying /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/build/robot_example/build/lib/robot_example/talker.py -> /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/install/robot_example/lib/python3.10/site-packages/robot_example
+copying /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/build/robot_example/build/lib/robot_example/ros2_config_manager.py -> /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/install/robot_example/lib/python3.10/site-packages/robot_example
+creating /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/install/robot_example/lib/python3.10/site-packages/robot_example/control
+copying /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/build/robot_example/build/lib/robot_example/control/motion.py -> /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/install/robot_example/lib/python3.10/site-packages/robot_example/control
+copying /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/build/robot_example/build/lib/robot_example/control/__init__.py -> /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/install/robot_example/lib/python3.10/site-packages/robot_example/control
+copying /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/build/robot_example/build/lib/robot_example/control/pid.py -> /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/install/robot_example/lib/python3.10/site-packages/robot_example/control
+copying /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/build/robot_example/build/lib/robot_example/control/filters.py -> /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/install/robot_example/lib/python3.10/site-packages/robot_example/control
+copying /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/build/robot_example/build/lib/robot_example/control/controller.py -> /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/install/robot_example/lib/python3.10/site-packages/robot_example/control
+copying /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/build/robot_example/build/lib/robot_example/cli.py -> /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/install/robot_example/lib/python3.10/site-packages/robot_example
+creating /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/install/robot_example/lib/python3.10/site-packages/robot_example/kinematics
+copying /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/build/robot_example/build/lib/robot_example/kinematics/mecanum.py -> /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/install/robot_example/lib/python3.10/site-packages/robot_example/kinematics
+copying /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/build/robot_example/build/lib/robot_example/kinematics/base.py -> /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/install/robot_example/lib/python3.10/site-packages/robot_example/kinematics
+copying /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/build/robot_example/build/lib/robot_example/kinematics/differential.py -> /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/install/robot_example/lib/python3.10/site-packages/robot_example/kinematics
+copying /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/build/robot_example/build/lib/robot_example/kinematics/__init__.py -> /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/install/robot_example/lib/python3.10/site-packages/robot_example/kinematics
+copying /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/build/robot_example/build/lib/robot_example/kinematics/omni.py -> /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/install/robot_example/lib/python3.10/site-packages/robot_example/kinematics
+copying /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/build/robot_example/build/lib/robot_example/kinematics/odometry.py -> /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/install/robot_example/lib/python3.10/site-packages/robot_example/kinematics
+copying /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/build/robot_example/build/lib/robot_example/kinematics/ackermann.py -> /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/install/robot_example/lib/python3.10/site-packages/robot_example/kinematics
+copying /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/build/robot_example/build/lib/robot_example/ros2_controller.py -> /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/install/robot_example/lib/python3.10/site-packages/robot_example
+copying /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/build/robot_example/build/lib/robot_example/ros2_hardware_monitor.py -> /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/install/robot_example/lib/python3.10/site-packages/robot_example
+copying /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/build/robot_example/build/lib/robot_example/ros2_kinematics.py -> /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/install/robot_example/lib/python3.10/site-packages/robot_example
+byte-compiling /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/install/robot_example/lib/python3.10/site-packages/robot_example/hardware/__init__.py to __init__.cpython-310.pyc
+byte-compiling /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/install/robot_example/lib/python3.10/site-packages/robot_example/hardware/sensors.py to sensors.cpython-310.pyc
+byte-compiling /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/install/robot_example/lib/python3.10/site-packages/robot_example/hardware/motors.py to motors.cpython-310.pyc
+byte-compiling /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/install/robot_example/lib/python3.10/site-packages/robot_example/hardware/gpio.py to gpio.cpython-310.pyc
+byte-compiling /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/install/robot_example/lib/python3.10/site-packages/robot_example/utils/logger.py to logger.cpython-310.pyc
+byte-compiling /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/install/robot_example/lib/python3.10/site-packages/robot_example/utils/__init__.py to __init__.cpython-310.pyc
+byte-compiling /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/install/robot_example/lib/python3.10/site-packages/robot_example/utils/config.py to config.cpython-310.pyc
+byte-compiling /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/install/robot_example/lib/python3.10/site-packages/robot_example/listener.py to listener.cpython-310.pyc
+byte-compiling /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/install/robot_example/lib/python3.10/site-packages/robot_example/__init__.py to __init__.cpython-310.pyc
+byte-compiling /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/install/robot_example/lib/python3.10/site-packages/robot_example/core/robot.py to robot.cpython-310.pyc
+byte-compiling /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/install/robot_example/lib/python3.10/site-packages/robot_example/core/__init__.py to __init__.cpython-310.pyc
+byte-compiling /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/install/robot_example/lib/python3.10/site-packages/robot_example/core/state.py to state.cpython-310.pyc
+byte-compiling /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/install/robot_example/lib/python3.10/site-packages/robot_example/communication/websocket_client.py to websocket_client.cpython-310.pyc
+byte-compiling /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/install/robot_example/lib/python3.10/site-packages/robot_example/communication/ros_bridge.py to ros_bridge.cpython-310.pyc
+byte-compiling /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/install/robot_example/lib/python3.10/site-packages/robot_example/communication/__init__.py to __init__.cpython-310.pyc
+byte-compiling /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/install/robot_example/lib/python3.10/site-packages/robot_example/communication/protocol.py to protocol.cpython-310.pyc
+byte-compiling /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/install/robot_example/lib/python3.10/site-packages/robot_example/talker.py to talker.cpython-310.pyc
+byte-compiling /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/install/robot_example/lib/python3.10/site-packages/robot_example/ros2_config_manager.py to ros2_config_manager.cpython-310.pyc
+byte-compiling /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/install/robot_example/lib/python3.10/site-packages/robot_example/control/motion.py to motion.cpython-310.pyc
+byte-compiling /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/install/robot_example/lib/python3.10/site-packages/robot_example/control/__init__.py to __init__.cpython-310.pyc
+byte-compiling /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/install/robot_example/lib/python3.10/site-packages/robot_example/control/pid.py to pid.cpython-310.pyc
+byte-compiling /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/install/robot_example/lib/python3.10/site-packages/robot_example/control/filters.py to filters.cpython-310.pyc
+byte-compiling /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/install/robot_example/lib/python3.10/site-packages/robot_example/control/controller.py to controller.cpython-310.pyc
+byte-compiling /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/install/robot_example/lib/python3.10/site-packages/robot_example/cli.py to cli.cpython-310.pyc
+byte-compiling /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/install/robot_example/lib/python3.10/site-packages/robot_example/kinematics/mecanum.py to mecanum.cpython-310.pyc
+byte-compiling /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/install/robot_example/lib/python3.10/site-packages/robot_example/kinematics/base.py to base.cpython-310.pyc
+byte-compiling /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/install/robot_example/lib/python3.10/site-packages/robot_example/kinematics/differential.py to differential.cpython-310.pyc
+byte-compiling /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/install/robot_example/lib/python3.10/site-packages/robot_example/kinematics/__init__.py to __init__.cpython-310.pyc
+byte-compiling /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/install/robot_example/lib/python3.10/site-packages/robot_example/kinematics/omni.py to omni.cpython-310.pyc
+byte-compiling /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/install/robot_example/lib/python3.10/site-packages/robot_example/kinematics/odometry.py to odometry.cpython-310.pyc
+byte-compiling /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/install/robot_example/lib/python3.10/site-packages/robot_example/kinematics/ackermann.py to ackermann.cpython-310.pyc
+byte-compiling /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/install/robot_example/lib/python3.10/site-packages/robot_example/ros2_controller.py to ros2_controller.cpython-310.pyc
+byte-compiling /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/install/robot_example/lib/python3.10/site-packages/robot_example/ros2_hardware_monitor.py to ros2_hardware_monitor.cpython-310.pyc
+byte-compiling /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/install/robot_example/lib/python3.10/site-packages/robot_example/ros2_kinematics.py to ros2_kinematics.cpython-310.pyc
+running install_data
+creating /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/install/robot_example/share/ament_index
+creating /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/install/robot_example/share/ament_index/resource_index
+creating /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/install/robot_example/share/ament_index/resource_index/packages
+copying resource/robot_example -> /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/install/robot_example/share/ament_index/resource_index/packages
+copying package.xml -> /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/install/robot_example/share/robot_example
+running install_egg_info
+Copying ../../build/robot_example/robot_example.egg-info to /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/install/robot_example/lib/python3.10/site-packages/robot_example-0.0.1-py3.10.egg-info
+running install_scripts
+Installing config_manager script to /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/install/robot_example/bin
+Installing hardware_monitor script to /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/install/robot_example/bin
+Installing kinematics_processor script to /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/install/robot_example/bin
+Installing robot_controller script to /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/install/robot_example/bin
+Installing robot_listener script to /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/install/robot_example/bin
+Installing robot_talker script to /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/install/robot_example/bin
+writing list of installed files to '/root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/build/robot_example/install.log'

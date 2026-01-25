@@ -1,0 +1,17 @@
+mqtt_broker: "localhost"
+mqtt_port: 1883
+mqtt_qos: 1
+
+# Device topics
+device_topics:
+  heartbeat: "robot/embedded/heartbeat"
+  sensors: "robot/embedded/sensors"
+  status: "robot/embedded/status"
+  control: "robot/control/command"
+
+# ROS topics
+ros_topics:
+  heartbeat: "robot/embedded/heartbeat"
+  sensors: "robot/embedded/sensors"
+  status: "robot/embedded/status"
+  control: "robot/control/command"

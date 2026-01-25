@@ -1,0 +1,34 @@
+running egg_info
+writing ../../build/robot_example/robot_example.egg-info/PKG-INFO
+writing dependency_links to ../../build/robot_example/robot_example.egg-info/dependency_links.txt
+writing entry points to ../../build/robot_example/robot_example.egg-info/entry_points.txt
+writing requirements to ../../build/robot_example/robot_example.egg-info/requires.txt
+writing top-level names to ../../build/robot_example/robot_example.egg-info/top_level.txt
+reading manifest file '../../build/robot_example/robot_example.egg-info/SOURCES.txt'
+writing manifest file '../../build/robot_example/robot_example.egg-info/SOURCES.txt'
+running build
+running build_py
+copying robot_example/ros2_controller.py -> /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/build/robot_example/build/lib/robot_example
+copying robot_example/ros2_hardware_monitor.py -> /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/build/robot_example/build/lib/robot_example
+copying robot_example/ros2_kinematics.py -> /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/build/robot_example/build/lib/robot_example
+running install
+running install_lib
+copying /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/build/robot_example/build/lib/robot_example/ros2_controller.py -> /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/install/robot_example/lib/python3.10/site-packages/robot_example
+copying /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/build/robot_example/build/lib/robot_example/ros2_hardware_monitor.py -> /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/install/robot_example/lib/python3.10/site-packages/robot_example
+copying /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/build/robot_example/build/lib/robot_example/ros2_kinematics.py -> /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/install/robot_example/lib/python3.10/site-packages/robot_example
+byte-compiling /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/install/robot_example/lib/python3.10/site-packages/robot_example/ros2_controller.py to ros2_controller.cpython-310.pyc
+byte-compiling /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/install/robot_example/lib/python3.10/site-packages/robot_example/ros2_hardware_monitor.py to ros2_hardware_monitor.cpython-310.pyc
+byte-compiling /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/install/robot_example/lib/python3.10/site-packages/robot_example/ros2_kinematics.py to ros2_kinematics.cpython-310.pyc
+running install_data
+copying package.xml -> /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/install/robot_example/share/robot_example
+running install_egg_info
+removing '/root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/install/robot_example/lib/python3.10/site-packages/robot_example-0.0.1-py3.10.egg-info' (and everything under it)
+Copying ../../build/robot_example/robot_example.egg-info to /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/install/robot_example/lib/python3.10/site-packages/robot_example-0.0.1-py3.10.egg-info
+running install_scripts
+Installing config_manager script to /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/install/robot_example/bin
+Installing hardware_monitor script to /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/install/robot_example/bin
+Installing kinematics_processor script to /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/install/robot_example/bin
+Installing robot_controller script to /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/install/robot_example/bin
+Installing robot_listener script to /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/install/robot_example/bin
+Installing robot_talker script to /root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/install/robot_example/bin
+writing list of installed files to '/root/Otomasi/Sistem-Otomasi-Robot/Robot/ros2_ws/build/robot_example/install.log'
