@@ -1,0 +1,1 @@
+/root/Sistem-Otomasi-Robot/Robot-MiniPC/src/robot_autonomous/launch/autonomous_robot.launch.py

@@ -1,8 +1,0 @@
-[console_scripts]
-config_manager = robot_example.ros2_config_manager:main
-hardware_monitor = robot_example.ros2_hardware_monitor:main
-kinematics_processor = robot_example.ros2_kinematics:main
-robot_controller = robot_example.ros2_controller:main
-robot_listener = robot_example.listener:main
-robot_talker = robot_example.talker:main
-

@@ -1,0 +1,1 @@
+/root/Sistem-Otomasi-Robot/Robot-MiniPC/build/robot_autonomous/ament_cmake_python/robot_autonomous/robot_autonomous.egg-info/SOURCES.txt

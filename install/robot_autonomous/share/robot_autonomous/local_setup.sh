@@ -1,0 +1,1 @@
+/root/Sistem-Otomasi-Robot/Robot-MiniPC/build/robot_autonomous/ament_cmake_environment_hooks/local_setup.sh

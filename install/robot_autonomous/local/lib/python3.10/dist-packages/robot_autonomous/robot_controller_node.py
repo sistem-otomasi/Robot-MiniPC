@@ -1,0 +1,1 @@
+/root/Sistem-Otomasi-Robot/Robot-MiniPC/src/robot_autonomous/robot_autonomous/robot_controller_node.py

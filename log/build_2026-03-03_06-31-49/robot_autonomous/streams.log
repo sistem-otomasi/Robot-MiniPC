@@ -1,0 +1,48 @@
+[0.113s] Invoking command in '/root/Sistem-Otomasi-Robot/Robot-MiniPC/build/robot_autonomous': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/Sistem-Otomasi-Robot/Robot-MiniPC/build/robot_autonomous -- -j4 -l4
+[0.579s] Built target ament_cmake_python_symlink_robot_autonomous
+[1.647s] running egg_info
+[1.658s] writing robot_autonomous.egg-info/PKG-INFO
+[1.665s] writing dependency_links to robot_autonomous.egg-info/dependency_links.txt
+[1.681s] writing top-level names to robot_autonomous.egg-info/top_level.txt
+[1.700s] reading manifest file 'robot_autonomous.egg-info/SOURCES.txt'
+[1.700s] writing manifest file 'robot_autonomous.egg-info/SOURCES.txt'
+[1.911s] Built target ament_cmake_python_build_robot_autonomous_egg
+[1.956s] Invoked command in '/root/Sistem-Otomasi-Robot/Robot-MiniPC/build/robot_autonomous' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/Sistem-Otomasi-Robot/Robot-MiniPC/build/robot_autonomous -- -j4 -l4
+[1.986s] Invoking command in '/root/Sistem-Otomasi-Robot/Robot-MiniPC/build/robot_autonomous': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /root/Sistem-Otomasi-Robot/Robot-MiniPC/build/robot_autonomous
+[2.039s] -- Install configuration: ""
+[2.040s] -- Execute custom install script
+[2.040s] -- Up-to-date symlink: /root/Sistem-Otomasi-Robot/Robot-MiniPC/install/robot_autonomous/share/robot_autonomous/environment/pythonpath.sh
+[2.040s] -- Up-to-date symlink: /root/Sistem-Otomasi-Robot/Robot-MiniPC/install/robot_autonomous/share/robot_autonomous/environment/pythonpath.dsv
+[2.040s] -- Up-to-date symlink: /root/Sistem-Otomasi-Robot/Robot-MiniPC/install/robot_autonomous/local/lib/python3.10/dist-packages/robot_autonomous-1.0.0-py3.10.egg-info/PKG-INFO
+[2.040s] -- Up-to-date symlink: /root/Sistem-Otomasi-Robot/Robot-MiniPC/install/robot_autonomous/local/lib/python3.10/dist-packages/robot_autonomous-1.0.0-py3.10.egg-info/SOURCES.txt
+[2.040s] -- Up-to-date symlink: /root/Sistem-Otomasi-Robot/Robot-MiniPC/install/robot_autonomous/local/lib/python3.10/dist-packages/robot_autonomous-1.0.0-py3.10.egg-info/dependency_links.txt
+[2.041s] -- Up-to-date symlink: /root/Sistem-Otomasi-Robot/Robot-MiniPC/install/robot_autonomous/local/lib/python3.10/dist-packages/robot_autonomous-1.0.0-py3.10.egg-info/top_level.txt
+[2.041s] -- Up-to-date symlink: /root/Sistem-Otomasi-Robot/Robot-MiniPC/install/robot_autonomous/local/lib/python3.10/dist-packages/robot_autonomous/__init__.py
+[2.041s] -- Up-to-date symlink: /root/Sistem-Otomasi-Robot/Robot-MiniPC/install/robot_autonomous/local/lib/python3.10/dist-packages/robot_autonomous/gps_driver_node.py
+[2.041s] -- Up-to-date symlink: /root/Sistem-Otomasi-Robot/Robot-MiniPC/install/robot_autonomous/local/lib/python3.10/dist-packages/robot_autonomous/imu_driver_node.py
+[2.041s] -- Up-to-date symlink: /root/Sistem-Otomasi-Robot/Robot-MiniPC/install/robot_autonomous/local/lib/python3.10/dist-packages/robot_autonomous/robot_controller_node.py
+[2.041s] -- Up-to-date symlink: /root/Sistem-Otomasi-Robot/Robot-MiniPC/install/robot_autonomous/lib/robot_autonomous/gps_driver_node.py
+[2.041s] -- Up-to-date symlink: /root/Sistem-Otomasi-Robot/Robot-MiniPC/install/robot_autonomous/lib/robot_autonomous/imu_driver_node.py
+[2.041s] -- Up-to-date symlink: /root/Sistem-Otomasi-Robot/Robot-MiniPC/install/robot_autonomous/lib/robot_autonomous/robot_controller_node.py
+[2.041s] -- Up-to-date symlink: /root/Sistem-Otomasi-Robot/Robot-MiniPC/install/robot_autonomous/share/robot_autonomous/launch/autonomous_robot.launch.py
+[2.042s] -- Up-to-date symlink: /root/Sistem-Otomasi-Robot/Robot-MiniPC/install/robot_autonomous/share/robot_autonomous/config/ekf_config.yaml
+[2.042s] -- Up-to-date symlink: /root/Sistem-Otomasi-Robot/Robot-MiniPC/install/robot_autonomous/share/robot_autonomous/config/nav2_params.yaml
+[2.042s] -- Symlinking: /root/Sistem-Otomasi-Robot/Robot-MiniPC/install/robot_autonomous/share/ament_index/resource_index/packages/robot_autonomous
+[2.074s] -- Up-to-date symlink: /root/Sistem-Otomasi-Robot/Robot-MiniPC/install/robot_autonomous/share/robot_autonomous/package.xml
+[2.075s] -- Up-to-date symlink: /root/Sistem-Otomasi-Robot/Robot-MiniPC/install/robot_autonomous/share/ament_index/resource_index/package_run_dependencies/robot_autonomous
+[2.076s] -- Up-to-date symlink: /root/Sistem-Otomasi-Robot/Robot-MiniPC/install/robot_autonomous/share/ament_index/resource_index/parent_prefix_path/robot_autonomous
+[2.078s] -- Up-to-date symlink: /root/Sistem-Otomasi-Robot/Robot-MiniPC/install/robot_autonomous/share/robot_autonomous/environment/ament_prefix_path.sh
+[2.078s] -- Up-to-date symlink: /root/Sistem-Otomasi-Robot/Robot-MiniPC/install/robot_autonomous/share/robot_autonomous/environment/ament_prefix_path.dsv
+[2.078s] -- Up-to-date symlink: /root/Sistem-Otomasi-Robot/Robot-MiniPC/install/robot_autonomous/share/robot_autonomous/environment/path.sh
+[2.078s] -- Up-to-date symlink: /root/Sistem-Otomasi-Robot/Robot-MiniPC/install/robot_autonomous/share/robot_autonomous/environment/path.dsv
+[2.081s] -- Up-to-date symlink: /root/Sistem-Otomasi-Robot/Robot-MiniPC/install/robot_autonomous/share/robot_autonomous/local_setup.bash
+[2.081s] -- Up-to-date symlink: /root/Sistem-Otomasi-Robot/Robot-MiniPC/install/robot_autonomous/share/robot_autonomous/local_setup.sh
+[2.084s] -- Up-to-date symlink: /root/Sistem-Otomasi-Robot/Robot-MiniPC/install/robot_autonomous/share/robot_autonomous/local_setup.zsh
+[2.084s] -- Up-to-date symlink: /root/Sistem-Otomasi-Robot/Robot-MiniPC/install/robot_autonomous/share/robot_autonomous/local_setup.dsv
+[2.084s] -- Symlinking: /root/Sistem-Otomasi-Robot/Robot-MiniPC/install/robot_autonomous/share/robot_autonomous/package.dsv
+[2.107s] -- Symlinking: /root/Sistem-Otomasi-Robot/Robot-MiniPC/install/robot_autonomous/share/ament_index/resource_index/packages/robot_autonomous
+[2.127s] -- Up-to-date symlink: /root/Sistem-Otomasi-Robot/Robot-MiniPC/install/robot_autonomous/share/robot_autonomous/cmake/robot_autonomousConfig.cmake
+[2.128s] -- Up-to-date symlink: /root/Sistem-Otomasi-Robot/Robot-MiniPC/install/robot_autonomous/share/robot_autonomous/cmake/robot_autonomousConfig-version.cmake
+[2.130s] -- Up-to-date symlink: /root/Sistem-Otomasi-Robot/Robot-MiniPC/install/robot_autonomous/share/robot_autonomous/package.xml
+[2.243s] Listing '/root/Sistem-Otomasi-Robot/Robot-MiniPC/install/robot_autonomous/local/lib/python3.10/dist-packages/robot_autonomous'...
+[2.270s] Invoked command in '/root/Sistem-Otomasi-Robot/Robot-MiniPC/build/robot_autonomous' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /root/Sistem-Otomasi-Robot/Robot-MiniPC/build/robot_autonomous

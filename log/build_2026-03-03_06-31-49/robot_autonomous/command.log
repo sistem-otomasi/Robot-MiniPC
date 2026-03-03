@@ -1,0 +1,4 @@
+Invoking command in '/root/Sistem-Otomasi-Robot/Robot-MiniPC/build/robot_autonomous': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/Sistem-Otomasi-Robot/Robot-MiniPC/build/robot_autonomous -- -j4 -l4
+Invoked command in '/root/Sistem-Otomasi-Robot/Robot-MiniPC/build/robot_autonomous' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/Sistem-Otomasi-Robot/Robot-MiniPC/build/robot_autonomous -- -j4 -l4
+Invoking command in '/root/Sistem-Otomasi-Robot/Robot-MiniPC/build/robot_autonomous': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /root/Sistem-Otomasi-Robot/Robot-MiniPC/build/robot_autonomous
+Invoked command in '/root/Sistem-Otomasi-Robot/Robot-MiniPC/build/robot_autonomous' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /root/Sistem-Otomasi-Robot/Robot-MiniPC/build/robot_autonomous

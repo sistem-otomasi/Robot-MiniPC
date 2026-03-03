@@ -1,0 +1,101 @@
+# ============================================================================
+# EKF Localization Configuration
+# Fusi sensor: GPS CUAV M3 + IMU Yahboom + Odometri
+# Package: robot_localization (navsat_transform_node + ekf_filter_node)
+# ============================================================================
+
+# ── EKF Node (Odom frame: odom → base_link) ─────────────────────────────────
+ekf_filter_node_odom:
+  ros__parameters:
+    # Frames
+    world_frame:     odom
+    odom_frame:      odom
+    base_link_frame: base_link
+    map_frame:       map
+
+    # Publish transform: odom → base_link
+    publish_tf:          true
+    two_d_mode:          true   # Mobil di permukaan datar
+    frequency:           30.0
+    sensor_timeout:      0.1
+    print_diagnostics:   true
+
+    # --- Input 0: Wheel Odometry ---
+    odom0: /odom
+    odom0_config: [false, false, false,   # x, y, z
+                   false, false, false,   # roll, pitch, yaw
+                   true,  true,  false,  # vx, vy, vz
+                   false, false, true,   # vroll, vpitch, vyaw
+                   false, false, false]  # ax, ay, az
+    odom0_differential:   false
+    odom0_relative:       false
+    odom0_queue_size:     10
+    odom0_nodelay:        false
+
+    # --- Input 1: IMU Yahboom ---
+    imu0: /imu/data
+    imu0_config: [false, false, false,   # x, y, z
+                  true,  true,  true,    # roll, pitch, yaw
+                  false, false, false,   # vx, vy, vz
+                  true,  true,  true,    # vroll, vpitch, vyaw
+                  true,  true,  false]  # ax, ay, az
+    imu0_differential:   false
+    imu0_relative:       false
+    imu0_remove_gravitational_acceleration: true
+    imu0_queue_size:     10
+    imu0_nodelay:        false
+
+    # Process noise (Q matrix diagonal - 15x15)
+    process_noise_covariance: [
+      0.05,  0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,
+      0.0,   0.05,  0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,
+      0.0,   0.0,   0.06,  0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,
+      0.0,   0.0,   0.0,   0.03,  0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,
+      0.0,   0.0,   0.0,   0.0,   0.03,  0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,
+      0.0,   0.0,   0.0,   0.0,   0.0,   0.06,  0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,
+      0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.025, 0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,
+      0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.025, 0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,
+      0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.04,  0.0,   0.0,   0.0,   0.0,   0.0,   0.0,
+      0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.01,  0.0,   0.0,   0.0,   0.0,   0.0,
+      0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.01,  0.0,   0.0,   0.0,   0.0,
+      0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.02,  0.0,   0.0,   0.0,
+      0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.01,  0.0,   0.0,
+      0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.01,  0.0,
+      0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.015
+    ]
+
+# ── EKF Node (Map frame: map → odom) ─────────────────────────────────────────
+ekf_filter_node_map:
+  ros__parameters:
+    world_frame:     map
+    odom_frame:      odom
+    base_link_frame: base_link
+    map_frame:       map
+
+    publish_tf:        true
+    two_d_mode:        true
+    frequency:         30.0
+    sensor_timeout:    0.1
+
+    # GPS masuk setelah dikonversi oleh navsat_transform_node
+    odom0: /odometry/gps
+    odom0_config: [true,  true,  false,
+                   false, false, false,
+                   false, false, false,
+                   false, false, false,
+                   false, false, false]
+    odom0_differential: false
+
+# ── Navsat Transform Node (GPS → Odometry) ───────────────────────────────────
+navsat_transform_node:
+  ros__parameters:
+    frequency:           30.0
+    delay:               3.0
+    magnetic_declination_radians: 0.0   # set sesuai lokasi
+    yaw_offset:          0.0
+    zero_altitude:       true
+    broadcast_utm_transform: true
+    broadcast_utm_transform_as_parent_frame: true
+    publish_filtered_gps: true
+    use_odometry_yaw:    false
+    wait_for_datum:      false

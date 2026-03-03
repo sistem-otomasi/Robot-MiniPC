@@ -1,0 +1,1 @@
+/root/Sistem-Otomasi-Robot/Robot-MiniPC/build/robot_autonomous/ament_cmake_core/robot_autonomousConfig-version.cmake

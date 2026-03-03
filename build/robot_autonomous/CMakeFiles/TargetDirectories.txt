@@ -1,0 +1,11 @@
+/root/Sistem-Otomasi-Robot/Robot-MiniPC/build/robot_autonomous/CMakeFiles/uninstall.dir
+/root/Sistem-Otomasi-Robot/Robot-MiniPC/build/robot_autonomous/CMakeFiles/robot_autonomous_uninstall.dir
+/root/Sistem-Otomasi-Robot/Robot-MiniPC/build/robot_autonomous/CMakeFiles/ament_cmake_python_symlink_robot_autonomous.dir
+/root/Sistem-Otomasi-Robot/Robot-MiniPC/build/robot_autonomous/CMakeFiles/ament_cmake_python_build_robot_autonomous_egg.dir
+/root/Sistem-Otomasi-Robot/Robot-MiniPC/build/robot_autonomous/CMakeFiles/test.dir
+/root/Sistem-Otomasi-Robot/Robot-MiniPC/build/robot_autonomous/CMakeFiles/edit_cache.dir
+/root/Sistem-Otomasi-Robot/Robot-MiniPC/build/robot_autonomous/CMakeFiles/rebuild_cache.dir
+/root/Sistem-Otomasi-Robot/Robot-MiniPC/build/robot_autonomous/CMakeFiles/list_install_components.dir
+/root/Sistem-Otomasi-Robot/Robot-MiniPC/build/robot_autonomous/CMakeFiles/install.dir
+/root/Sistem-Otomasi-Robot/Robot-MiniPC/build/robot_autonomous/CMakeFiles/install/local.dir
+/root/Sistem-Otomasi-Robot/Robot-MiniPC/build/robot_autonomous/CMakeFiles/install/strip.dir
